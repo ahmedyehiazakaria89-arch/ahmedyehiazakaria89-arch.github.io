@@ -85,6 +85,21 @@ section h2 {
 .social-links a:hover {
   color: #1affc9; /* لون أفتح عند الـ hover */
 }
+.cv-btn {
+  background-color: #00d9a5;
+  color: #121212;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-left: 15px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cv-btn:hover {
+  background-color: #1affc9;
+  color: #000;
+}
+
 
 
 
