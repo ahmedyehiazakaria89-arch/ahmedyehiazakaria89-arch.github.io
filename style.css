@@ -70,6 +70,22 @@ section h2 {
   border: 3px solid #00d9a5; /* نفس لون الستايل */
   box-shadow: 0 0 15px rgba(0, 217, 165, 0.3); /* ظل خفيف */
 }
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: #00d9a5;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #1affc9; /* لون أفتح عند الـ hover */
+}
+
 
 
 /* Footer */
