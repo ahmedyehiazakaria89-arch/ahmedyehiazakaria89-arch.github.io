@@ -97,6 +97,36 @@ section h2 {
   color: #4fd1c5; /* الأزرق السماوي من الباليتة الداكنة */
 }
 
+.projects {
+  padding: 50px 20px;
+  background-color: #1a202c; /* نفس خلفية الدارك */
+  color: #e2e8f0;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #4fd1c5; /* اللون المميز */
+}
+
+.projects .card {
+  background-color: #2d3748;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.projects .card h3 {
+  color: #63b3ed;
+  margin-bottom: 10px;
+}
+
+.projects .card p {
+  line-height: 1.6;
+}
 
 
 
