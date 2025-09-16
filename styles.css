@@ -1,127 +1,74 @@
-/* Reset */
+/* General Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* General Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0;
   line-height: 1.6;
-  background: #f1f4f6; /* خلفية رمادي فاتح */
-  color: #1e1e1e; /* نص رمادي غامق */
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  padding: 80px 20px;
   text-align: center;
-  padding: 60px 20px;
-  background: linear-gradient(135deg, #e6fffb, #ffffff); /* خلفية فاتحة × تركواز خفيف */
 }
 
 .hero h1 {
-  font-size: 2.2rem;
-  margin: 10px 0;
+  font-size: 2.5rem;
 }
 
 .hero h1 span {
-  color: #20c997; /* تركواز */
+  color: #00d9a5; /* Highlight */
 }
 
-.subtitle {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
-  color: #555;
+.hero h2 {
+  font-weight: 400;
+  margin: 10px 0;
 }
 
-.hero-img {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #20c997;
-  margin: 20px 0;
-}
-
-.hero-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.btn {
+.hero a {
+  color: #00d9a5;
   text-decoration: none;
-  background: #20c997;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 25px;
-  transition: background 0.3s, transform 0.2s;
-}
-
-.btn:hover {
-  background: #0d6efd; /* أزرق فاتح hover */
-  transform: translateY(-2px);
 }
 
 /* Sections */
 section {
-  padding: 60px 20px;
-  text-align: center;
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
 }
 
 section h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
-  color: #20c997;
+  border-bottom: 2px solid #00d9a5;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
-/* Projects Grid */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.project-card {
-  background: white;
+/* Cards */
+.card {
+  background-color: #1e1e1e;
   padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: left;
-  transition: transform 0.2s;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-}
-
-.project-card h3 {
-  margin-bottom: 10px;
-  color: #20c997;
-}
-
-.project-card p {
-  margin-bottom: 10px;
-  color: #555;
-}
-
-.project-card a {
-  color: #0d6efd;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.project-card a:hover {
-  text-decoration: underline;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 217, 165, 0.2);
 }
 
 /* Footer */
 footer {
+  background-color: #0f2027;
   text-align: center;
-  padding: 20px;
-  background: #e9ecef;
-  margin-top: 40px;
-  font-size: 0.9rem;
+  padding: 40px 20px;
+}
+
+footer a {
+  color: #00d9a5;
 }
