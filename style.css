@@ -136,6 +136,22 @@ h2 {
 .contact-links a:hover {
   color: #007f86;
 }
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00adb5;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
 
 /* Footer */
 footer {
