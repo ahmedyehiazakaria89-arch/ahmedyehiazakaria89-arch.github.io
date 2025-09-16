@@ -71,34 +71,32 @@ section h2 {
   box-shadow: 0 0 15px rgba(0, 217, 165, 0.3); /* ظل خفيف */
 }
 .social-links {
-  margin-top: 15px;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
 .social-links a {
-  color: #00d9a5;
+  color: #ffffff; /* أبيض افتراضي */
   text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* مسافة بين الأيقونة والنص */
   transition: color 0.3s ease;
 }
 
-.social-links a:hover {
-  color: #1affc9; /* لون أفتح عند الـ hover */
-}
-.cv-btn {
-  background-color: #00d9a5;
-  color: #121212;
-  padding: 8px 16px;
-  border-radius: 6px;
-  margin-left: 15px;
-  font-weight: bold;
-  transition: background 0.3s ease;
+.social-links a svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor; /* يخلي الأيقونة تاخد نفس لون النص */
 }
 
-.cv-btn:hover {
-  background-color: #1affc9;
-  color: #000;
+.social-links a:hover {
+  color: #4fd1c5; /* الأزرق السماوي من الباليتة الداكنة */
 }
+
 
 
 
