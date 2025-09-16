@@ -62,8 +62,8 @@ section h2 {
   box-shadow: 0 0 10px rgba(0, 217, 165, 0.2);
 }
 .profile-pic {
-  width: 180px;          /* حجم مناسب */
-  height: 180px;
+  width: 200px;          /* حجم مناسب */
+  height: 200px;
   border-radius: 50%;    /* يخليها دايرة */
   object-fit: cover;     /* يخلي الصورة متقصوصة صح */
   margin-bottom: 20px;
