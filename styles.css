@@ -7,18 +7,32 @@
 
 /* General Styles */
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: #0f172a; /* خلفية داكنة شيك */
-  color: #e2e8f0;     /* نص فاتح */
+  background: #f8f9fa; /* خلفية فاتحة */
+  color: #333;
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #3b82f6, #06b6d4); /* أزرق/تركواز */
-  color: white;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #e3f2fd, #ffffff); /* أزرق فاتح × أبيض */
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin: 10px 0;
+}
+
+.hero h1 span {
+  color: #007bff; /* أزرق */
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #555;
 }
 
 .hero-img {
@@ -26,24 +40,9 @@ body {
   height: 160px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #ffffff;
+  border: 4px solid #007bff;
+  margin-top: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  margin: 10px 0;
-}
-
-.hero h1 span {
-  color: #facc15; /* أصفر مميز */
-}
-
-.subtitle {
-  font-size: 1.2rem;
-  margin-bottom: 25px;
-  color: #f1f5f9;
 }
 
 .hero-buttons {
@@ -55,17 +54,15 @@ body {
 
 .btn {
   text-decoration: none;
-  background: #facc15; /* أصفر */
-  color: #0f172a;
-  font-weight: bold;
-  padding: 10px 25px;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
   border-radius: 25px;
-  transition: all 0.3s ease;
+  transition: background 0.3s;
 }
 
 .btn:hover {
-  background: #fcd34d;
-  transform: translateY(-3px);
+  background: #0056b3;
 }
 
 /* Sections */
@@ -77,41 +74,36 @@ section {
 section h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
-  color: #38bdf8; /* تركواز */
+  color: #007bff;
 }
 
 /* Projects Grid */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
 
 .project-card {
-  background: #1e293b; /* كارت غامق */
+  background: white;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: left;
-  transition: transform 0.3s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
 }
 
 .project-card h3 {
   margin-bottom: 10px;
-  color: #facc15; /* أصفر */
+  color: #007bff;
 }
 
 .project-card p {
   margin-bottom: 10px;
-  color: #cbd5e1;
+  color: #555;
 }
 
 .project-card a {
-  color: #38bdf8;
+  color: #007bff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -120,24 +112,11 @@ section h2 {
   text-decoration: underline;
 }
 
-/* Contact Section */
-#contact a {
-  color: #38bdf8;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#contact a:hover {
-  text-decoration: underline;
-}
-
 /* Footer */
 footer {
   text-align: center;
   padding: 20px;
-  background: #0f172a;
-  border-top: 1px solid #1e293b;
+  background: #eee;
   margin-top: 40px;
   font-size: 0.9rem;
-  color: #94a3b8;
 }
